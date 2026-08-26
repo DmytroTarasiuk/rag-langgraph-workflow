@@ -190,13 +190,3 @@ Conclusion: the custom flow is better for a very small 2-3 step demo because it
 has almost no framework overhead. LangGraph becomes more useful when the workflow
 has multiple branches, needs durable state, or needs to show a clear route graph.
 Edges, and conditional routing much easier to explain and grade.
-
-## Grading Checklist
-
-| Requirement | Where implemented |
-|---|---|
-| Framework workflow runs locally | `scripts/langgraph_flow.py` with `requirements.txt` |
-| State defined and used | `AgentState` in `scripts/langgraph_flow.py` |
-| Minimum 2 nodes and 1 conditional edge | 6 nodes and one `add_conditional_edges` call |
-| 3 examples with tracing | `outputs/langgraph_examples.md` |
-| Custom vs framework comparison | README section "Custom Flow vs LangGraph" |
