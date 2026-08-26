@@ -1,7 +1,3 @@
-## Framework Choice
-
-Selected framework: LangGraph.
-
 Why LangGraph:
 
 - it models agentic workflows as a graph, which matches the assignment language:
